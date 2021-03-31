@@ -1,0 +1,61 @@
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.box {
+    background: black;
+    position: relative;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.box-1 {
+    grid-column: 1 / 5;
+    background: chocolate;
+}
+
+.box-2 {
+    grid-column: 5 / 7;
+    background: chocolate;
+}
+
+.box-3 {
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    background: yellow;
+}
+
+.box-4 {
+    grid-column: 4 / 7;
+    grid-row: 2 / 3;
+    background: slateblue;
+}
+
+.box-5 {
+    grid-column: 4 / 7;
+    grid-row: 3 / 4;
+    background: slateblue;
+}
+
+.box-6 {
+    grid-column: 1 / 3;
+    background: steelblue;
+}
+
+.box-7 {
+    grid-column: 3 / 5;
+    background: steelblue;
+}
+
+.box-8 {
+    grid-column: 5 / 7;
+    background: steelblue;
+}
